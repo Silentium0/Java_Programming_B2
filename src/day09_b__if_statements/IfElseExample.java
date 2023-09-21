@@ -1,21 +1,21 @@
 package day09_b__if_statements;
 
 public class IfElseExample {
-    /*
-        int score = 60;
-        if (score >= 75){  // false
-            System.out.println("You passed the exam!");
-        }
 
-        if (score < 75) {  // true
-            System.out.println("You failed!");
-        }
-     */
+//        int score = 60;
+//        if (score >= 75){  // false
+//            System.out.println("You passed the exam!");
+//        }
+//
+//        if (score < 75) {  // true
+//            System.out.println("You failed!");
+//        }
+//
     public static void main(String[] args) {
 
         int score = 60;
 
-        if (score >= 75) {  // check if this line TRUE, execute the if body,
+        if (score >= 85) {  // check if this line TRUE, execute the if body,
 
             System.out.println("Passing!");
 
@@ -45,8 +45,8 @@ public class IfElseExample {
         }
          */
         System.out.println();
-        int year = 2024;
-        boolean isLockdown = year == 2020 || year == 2021;
+        int year = 2020;
+        boolean isLockdown = year == 2027 || year == 2028;
 
         //  false
         if (isLockdown) {

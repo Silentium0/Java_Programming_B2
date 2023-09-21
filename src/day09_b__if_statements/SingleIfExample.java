@@ -16,12 +16,12 @@ public class SingleIfExample {
 
 
         int score = 567;
-        if (score < 78) {
+        if (score > 78) {
             System.out.println("You failed ");
         }
 
 
-        if (score > 75) {
+        if (score < 75) {
             System.out.println("print me ");
         }
 

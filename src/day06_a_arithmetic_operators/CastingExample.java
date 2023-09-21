@@ -1,4 +1,4 @@
-package day_06_a_arithmetic_operators;
+package day06_a_arithmetic_operators;
 
 public class CastingExample {
 
