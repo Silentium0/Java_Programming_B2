@@ -1,4 +1,4 @@
-package day_04_variables;
+package day04_variables;
 
 public class FloatingNumbers {
 
