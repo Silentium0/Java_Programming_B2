@@ -41,9 +41,10 @@ public class LoginApp {
         int enteredSSN = input.nextInt();
 
         String message = "";
+
         if (enteredPincode == myPincode && enteredSSN == mySSN) {
-            message = "\n\tAuthentication successful";
-            //System.out.println("\n\tAuthentication successful");
+            message  = "\n\tAuthentication successful";
+            System.out.println("\n\tAuthentication successful");
         } else {
             message = "\n\tAuthentication failed";
             //System.out.println("\n\tAuthentication failed");
