@@ -22,3 +22,4 @@ public class EmptyOrBlank {
         System.out.println(str.isBlank()); // we got   dot (.)  right on the middle
     }
 }
+
