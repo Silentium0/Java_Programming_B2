@@ -22,7 +22,7 @@ public class MaxMIn {
 
 
         }
-        System.out.println(min);
-        System.out.println(max);
+        System.out.println("MIN: "+min);
+        System.out.println("MAX: "+max);
     }
 }
