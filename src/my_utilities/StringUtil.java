@@ -35,7 +35,7 @@ public class StringUtil {
 
 
     /**
-     *   Palindrome  or not  palindrome
+     *   Palindrome  or not  palindrome =  output ( true or false )
      */
 
     public static boolean isPalindrome(String word) {
