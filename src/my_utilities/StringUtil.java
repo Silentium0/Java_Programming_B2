@@ -49,4 +49,21 @@ public class StringUtil {
 
     }
 
+
+
+    /**
+     *
+     * Will give you index from String
+     */
+
+    public static int indexOfSt (String [] str , String word) {
+
+        for (int i = 0; i < str.length; i++) {
+            if (str[i].equals(word)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }
