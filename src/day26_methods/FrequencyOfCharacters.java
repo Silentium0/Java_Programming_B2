@@ -1,6 +1,6 @@
 package day26_methods;
 
-public class frequencyOfCharacters {
+public class FrequencyOfCharacters {
 
 
     public static void main(String[] args) {
