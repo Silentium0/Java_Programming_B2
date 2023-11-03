@@ -1,5 +1,7 @@
 package my_utilities;
 
+import java.util.ArrayList;
+
 public class StringUtil {
 
     /**
@@ -65,5 +67,17 @@ public class StringUtil {
         }
         return -1;
     }
+
+    public static void stausOfShoppingList(ArrayList<String> list){
+        if (list.isEmpty()){
+            System.out.println("Shopping list is empty");
+        }else {
+            System.out.println("Has items: "+ list);
+        }
+
+
+    }
+
+
 
 }
