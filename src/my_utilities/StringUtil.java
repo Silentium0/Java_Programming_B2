@@ -79,5 +79,38 @@ public class StringUtil {
     }
 
 
+    /**
+     *
+     * Reversed each  Character in  array list
+     */
+
+    public static ArrayList<String> reversAllChar(ArrayList<String> list) {
+
+        ArrayList<String> reversedList = new ArrayList<>();
+
+        for (String each : list) {
+            String str = "";
+            for (int i = each.length() - 1; i >= 0; i--) {
+                str += each.charAt(i);
+            }
+            reversedList.add(str);
+        }
+        return reversedList;
+
+    }
+
+    public static ArrayList<Integer> sumNumberFromString(ArrayList<String> list) {
+        ArrayList<Integer> numSum = new ArrayList<>();
+
+        for (String each: list){
+            int sum = 0;
+
+            for (int i = 0; i < each.length(); i++) {
+                sum += Integer.parseInt(""+each.charAt(i)); // we convert  String into Integer  so we can add them all together
+            }
+            numSum.add(sum);
+        }
+        return numSum;
+    }
 
 }

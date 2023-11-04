@@ -1,6 +1,8 @@
 package my_utilities;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayUtil {
 
@@ -90,6 +92,22 @@ public class ArrayUtil {
         }
         newArr [newArr.length - 1] = str;
         return newArr;
+    }
+
+
+    /**
+     *
+     * Remove duplicates numbers from ArrayList
+     */
+
+
+    public static ArrayList<Integer> removeNumDuplicates(ArrayList<Integer> nums) {
+
+        ArrayList<Integer> uniques = new ArrayList<>(nums);
+
+        uniques.removeIf(each -> Collections.frequency(uniques,each) > 1);
+
+        return uniques;
     }
 
 
